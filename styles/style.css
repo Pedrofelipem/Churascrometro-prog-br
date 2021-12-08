@@ -1,5 +1,6 @@
 body {
-    background-image: url("./images/banner.png");
+    background-image: url(".assets/images/banner.png");
+    overflow-x: hidden;
 }
 
 .container {
@@ -14,14 +15,18 @@ body {
 
 #titulo {
     text-align: center;
+    color: black;
 }
 
 input {
     width: 100%;
     display: block;
-    padding: 5px;
+    padding: 15px;
     box-sizing: border-box;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+    color: black;
 }
 
 #button {
@@ -30,4 +35,39 @@ input {
 
 button {
     padding: 5px;
+    background-color: chocolate;
+    color: black;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+}
+
+#resultado {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 300px;
+    margin: auto;
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+#textoResultado {
+    text-align: center;
+    padding: 5px;
+}
+
+.rodape {
+    font-family: 'Rubik', sans-serif;
+    background-color: aquamarine;
+    text-align: center;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    bottom: 0;
+}
+
+#h5-felipe {
+    color: blue;
 }
